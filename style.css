@@ -21,28 +21,38 @@ body {
   padding: 0px;
   border-radius: 0px;
 }
+.quotation-mark {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  /* background-color: purple; */
+}
+.quotation-mark > img {
+  object-fit: fit;
+  width: 30%;
+  max-height: 30%;
+}
 .quote1 {
   grid-row: 2/3;
   grid-column: 4/6;
   text-align: right;
-  /* background-color: pink; */
+  /* background-color: purple; */
 }
 .quote2 {
   grid-row: 3/4;
   grid-column: 2/6;
-  /* background-color: blue; */
+  /* background-color: purple; */
 }
 .divider {
   grid-row: 4/5;
   grid-column: 2/6;
-  /* background-color: pink; */
+  /* background-color: purple; */
 }
 .loveislove {
   grid-row: 5/8;
   grid-column: 2/6;
   text-align: right;
   margin: 0px 0px 0px;
-  /* background-color: blue; */
+  /* background-color: purple; */
 }
 .takepride {
   grid-row: 4/5;
@@ -56,30 +66,34 @@ body {
   grid-column: 6/9;
   margin: 0px 50px 0px;
   text-align: justify;
-  /* background-color: blue; */
+  /* background-color: purple; */
 }
 .paragraph2 {
   grid-row: 5/8;
   grid-column: 6/9;
   margin: 0px 50px 0px;
   text-align: justify;
-  /* background-color: blue; */
+  /* background-color: purple; */
 }
 .purple-line {
   grid-row: 2/3;
   grid-column: 9/10;
   width: 123.1px;
   height: 9px;
+  margin-top: 5px;
   background-color: #844cef;
   text-align: right;
+  background-color: #844cef;
 }
 .braille {
   grid-row: 4/8;
   grid-column: 9/10;
+  align-content: baseline;
+  /* background-color: purple; */
 }
 .braille > img{
-  object-fit: cover;
-  width: 97%;
+  object-fit: fit;
+  width: 100%;
   max-height: 100%;
 }
 .gradient-text1 {
@@ -108,6 +122,7 @@ body {
   grid-column: 2/3;
   width: 123.1px;
   height: 9px;
+  margin-top: 5px;
   background-color: #ff4d4f;
 }
 .orange-line {
@@ -115,6 +130,7 @@ body {
   grid-column: 3/4;
   width: 123.1px;
   height: 9px;
+  margin-top: 5px;
   background-color: #ff8700;
   align-self: center;
 }
@@ -123,6 +139,7 @@ body {
   grid-column: 4/5;
   width: 123.1px;
   height: 9px;
+  margin-top: 5px;
   background-color: #fcdd54;
 }
 .green-line {
@@ -130,12 +147,15 @@ body {
   grid-column: 5/6;
   width: 123.1px;
   height: 9px;
+  margin-top: 5px;
   background-color: #00c8b5;
 }
 h1 {
   font-family: 'Epilogue', sans-serif;
   font-size: 155px;
-  margin-top: -5px;
+  margin-top: -5.5px;
+  margin-right: -9px;
+  line-height: 155px;
 }
 h2 {
   font-family: 'Epilogue', sans-serif;
@@ -151,13 +171,13 @@ h3 {
 h4 {
   font-family: 'Merriweather', serif;
   font-size: 25px;
-  margin-top: 0px;
+  margin-top: -4px;
 }
 p {
   font-family: 'ABeeZee', sans-serif;
   font-size: 12.5px;
   color: #a8a8a8;
-  line-height: 19px;
+  line-height: 18.4px;
 }
 .red-text {
   color: #ff4d4f;
