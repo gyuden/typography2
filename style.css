@@ -13,7 +13,7 @@ body {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(8, minmax(80px, auto));
-  grid-gap: 15px;
+  grid-gap: 14.7px;
 }
 .grid div {
   padding: 0px;
@@ -44,7 +44,6 @@ body {
   grid-column: 2/6;
   text-align: right;
   justify-self: end;
-  margin: 0px 0px 0px;
 }
 .takepride {
   grid-row: 4/5;
@@ -104,7 +103,7 @@ body {
   width: auto;
   height: 9px;
   background-color: #ff4d4f;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 .orange-line {
   grid-row: 4/5;
@@ -112,7 +111,7 @@ body {
   width: auto;
   height: 9px;
   background-color: #ff8700;
-  border-radius: 15px;
+  border-radius: 10px;
   align-self: center;
 }
 .yellow-line {
@@ -121,7 +120,7 @@ body {
   width: auto;
   height: 9px;
   background-color: #fcdd54;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 .green-line {
   grid-row: 4/5;
@@ -129,7 +128,7 @@ body {
   width: auto;
   height: 9px;
   background-color: #00c8b5;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 .purple-line {
   grid-row: 2/3;
@@ -140,38 +139,38 @@ body {
   text-align: justify;
   text-align-last: right;
   background-color: #844cef;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 /* Text formatting */
 h1 {
   font-family: 'Epilogue', sans-serif;
   font-size: 168px;
   /* margin-top: -10px; */
-  margin-right: -9px;
+  /* margin-right: -9px; */
   line-height: 160px;
 }
 h2 {
   font-family: 'Epilogue', sans-serif;
-  font-size: 42px;
+  font-size: 47px;
 }
 h3 {
   font-family: 'Merriweather', serif;
   font-size: 42.2px;
   font-weight: 300;
-  margin-top: -6px;
+  /* margin-top: -6px; */
   text-align: justify;
 }
 h4 {
   font-family: 'Merriweather', serif;
   font-size: 25px;
-  margin-top: -4px;
+  /* margin-top: -4px; */
 }
 p {
   font-family: 'ABeeZee', sans-serif;
   font-size: 13.8px;
   color: #a8a8a8;
-  margin-top: -5px;
-  line-height: 20px;
+  /* margin-top: -5px; */
+  line-height: 19.5px;
 }
 .red-text {
   color: #ff4d4f;
@@ -195,3 +194,19 @@ a:hover {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
+/* Smaller screen display */
+/* @media only screen and (max-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, minmax(80px, auto));
+    grid-template-areas:
+      "quotation-mark quote1"
+      "quote2"
+      "love is love"
+      "paragraph1"
+      "takepride"
+      "paragraph2"
+      "purpleline"
+      "braille";
+  }
+} */
