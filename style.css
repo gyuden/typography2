@@ -18,7 +18,7 @@ body {
   grid-template-rows: repeat(8, 90px);
   grid-gap: 15px;
   align-self: center;
-  background-color: purple;
+  /* background-color: purple; */
 }
 .grid div {
   padding: 0px;
